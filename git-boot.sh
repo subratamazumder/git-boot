@@ -6,6 +6,6 @@ git init
 echo $1 > README.md
 wget https://raw.githubusercontent.com/subratamazumder/git-boot/master/LICENSE
 git add .
-git commit -m "readme added" .
+git commit -m "readme and lincense added" .
 hub create
 git push -u origin HEAD
